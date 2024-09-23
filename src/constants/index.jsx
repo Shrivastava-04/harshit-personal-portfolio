@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa6";
 
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiAdobepremierepro, SiCanva } from "react-icons/si";
+import { SiAdobepremierepro, SiCanva, SiReaddotcv } from "react-icons/si";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
@@ -21,6 +21,7 @@ import image5 from "../assets/image5.png";
 import image6 from "../assets/image6.png";
 import image7 from "../assets/image7.png";
 import image8 from "../assets/image8.png";
+import image9 from "../assets/image9.png";
 
 export const NAVIGATION_LINKS = [
   { label: "About", href: "#about" },
@@ -42,6 +43,13 @@ export const ABOUT = {
 };
 
 export const PROJECTS = [
+  {
+    title: "FocusFlow",
+    subtitle:
+      "A no distraction Youtube App where you get what you searched for.",
+    image: image9,
+    link: "https://no-distraction-youtube-two.vercel.app/",
+  },
   {
     title: "Furniture Store App",
     subtitle:
@@ -179,6 +187,15 @@ export const SOCIAL_MEDIA_LINKS = [
     href: "https://www.linkedin.com/in/harshitshrivastava01/",
     icon: (
       <FaLinkedin
+        fontSize={25}
+        className="hover:opacity-80 hover:scale-125 transition ease-in-out delay-150 hover:-translate-y-1 duration-300"
+      />
+    ),
+  },
+  {
+    href: "https://drive.google.com/file/d/1kUFBmp612abedSubkUFs87lD2n--hhh_/view?usp=drive_link",
+    icon: (
+      <SiReaddotcv
         fontSize={25}
         className="hover:opacity-80 hover:scale-125 transition ease-in-out delay-150 hover:-translate-y-1 duration-300"
       />

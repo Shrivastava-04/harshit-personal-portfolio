@@ -43,6 +43,11 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
+              <div className="text-sm hover:text-yellow-400 hover:scale-125 transition ease-in-out hover:-translate-y-1 duration-300 delay-150">
+                <a href="https://drive.google.com/file/d/1kUFBmp612abedSubkUFs87lD2n--hhh_/view?usp=drive_link">
+                  Resume
+                </a>
+              </div>
             </ul>
           </div>
         </div>
