@@ -85,6 +85,11 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
+              <div className="block w-full text-xl font-semibold">
+                <a href="https://drive.google.com/file/d/1kUFBmp612abedSubkUFs87lD2n--hhh_/view?usp=drive_link">
+                  Resume
+                </a>
+              </div>
             </ul>
           )}
         </div>
