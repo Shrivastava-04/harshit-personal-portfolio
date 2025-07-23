@@ -36,7 +36,7 @@ const Projects = () => {
         viewport={{ once: true }}
         className="flex flex-wrap justify-center py-8"
       >
-        {PROJECTS.map((project, index) => (
+        {PROJECTS.slice(0, 9).map((project, index) => (
           <motion.div key={index} variants={itemsVariants}>
             <div className="hover:scale-105 transition ease-in-out hover:-translate-y-1 duration-300 delay-150">
               <Cards

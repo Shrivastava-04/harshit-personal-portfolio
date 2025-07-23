@@ -44,7 +44,7 @@ const Navbar = () => {
                 </li>
               ))}
               <div className="text-sm hover:text-yellow-400 hover:scale-125 transition ease-in-out hover:-translate-y-1 duration-300 delay-150">
-                <a href="https://drive.google.com/file/d/1kUFBmp612abedSubkUFs87lD2n--hhh_/view?usp=drive_link">
+                <a href="https://drive.google.com/file/d/19hO85YffJD6itHgNjiSMJLkgimi2uSVn/view?usp=sharing">
                   Resume
                 </a>
               </div>
@@ -86,7 +86,7 @@ const Navbar = () => {
                 </li>
               ))}
               <div className="block w-full text-xl font-semibold">
-                <a href="https://drive.google.com/file/d/1kUFBmp612abedSubkUFs87lD2n--hhh_/view?usp=drive_link">
+                <a href="https://drive.google.com/file/d/19hO85YffJD6itHgNjiSMJLkgimi2uSVn/view?usp=sharing">
                   Resume
                 </a>
               </div>

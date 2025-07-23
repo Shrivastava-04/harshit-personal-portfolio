@@ -22,6 +22,7 @@ import image6 from "../assets/image6.png";
 import image7 from "../assets/image7.png";
 import image8 from "../assets/image8.png";
 import image9 from "../assets/image9.png";
+import image10 from "../assets/image10.png";
 
 export const NAVIGATION_LINKS = [
   { label: "About", href: "#about" },
@@ -44,6 +45,13 @@ export const ABOUT = {
 
 export const PROJECTS = [
   {
+    title: "Crowd Funding Platform",
+    subtitle:
+      "A crowd funding platform where you can create your own campaigns and get funds for it.",
+    image: image10,
+    link: "https://crowd-funding-platform-pink.vercel.app/",
+  },
+  {
     title: "FocusFlow",
     subtitle:
       "A no distraction Youtube App where you get what you searched for.",
@@ -54,7 +62,7 @@ export const PROJECTS = [
     title: "Furniture Store App",
     subtitle:
       "A full-stack Furniture Store App built with React, Node.js, Express.js and MongoDB",
-    image: image1,
+    image: image10,
     link: "https://github.com/Shrivastava-04/furnitureStoreApp",
   },
   {
@@ -89,18 +97,18 @@ export const PROJECTS = [
     link: "https://github.com/Shrivastava-04/Tic-Tac-Toe-Game",
   },
   {
-    title: "Snake Game",
-    subtitle:
-      "A console based snake game built using C++ and concepts of Data Structures and Algorithm.",
-    image: image7,
-    link: "https://github.com/Shrivastava-04/Snake-Game",
-  },
-  {
     title: "Sudoku Solver",
     subtitle:
       "A console based Sudoku solver built using c++ and concepts of Data Structures and Algotithm, mainly Backtracking.",
     image: image8,
     link: "https://github.com/Shrivastava-04/Sudoku-Solver",
+  },
+  {
+    title: "Snake Game",
+    subtitle:
+      "A console based snake game built using C++ and concepts of Data Structures and Algorithm.",
+    image: image7,
+    link: "https://github.com/Shrivastava-04/Snake-Game",
   },
 ];
 
