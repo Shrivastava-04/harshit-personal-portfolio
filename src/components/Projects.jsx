@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { PROJECTS } from "../constants";
 import Cards from "./Cards";
 import { motion } from "framer-motion";
