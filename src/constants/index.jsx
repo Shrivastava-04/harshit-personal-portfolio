@@ -13,7 +13,7 @@ import { RiReactjsLine } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 
-import image1 from "../assets/image1.png";
+// import image1 from "../assets/image1.png";
 import image2 from "../assets/image2.png";
 import image3 from "../assets/image3.png";
 import image4 from "../assets/image4.png";
@@ -23,6 +23,7 @@ import image7 from "../assets/image7.png";
 import image8 from "../assets/image8.png";
 import image9 from "../assets/image9.png";
 import image10 from "../assets/image10.png";
+import image11 from "../assets/image11.png";
 
 export const NAVIGATION_LINKS = [
   { label: "About", href: "#about" },
@@ -44,6 +45,13 @@ export const ABOUT = {
 };
 
 export const PROJECTS = [
+  {
+    title: "Rift Wear",
+    subtitle:
+      "An online e-commerce website for purchasing clothes with real users and real products",
+    image: image11,
+    link: "https://riftwear.in/",
+  },
   {
     title: "Crowd Funding Platform",
     subtitle:
